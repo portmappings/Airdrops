@@ -1,0 +1,10 @@
+name: PortsAirdrops
+version: '${project.version}'
+main: me.portmapping.airdrops.Airdrops
+api-version: 1.13
+author: PortMapping
+commands:
+  airdrop:
+    description: Command for managing airdrops
+depend:
+  - HolographicDisplays

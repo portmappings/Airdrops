@@ -1,0 +1,31 @@
+AIRDROPS:
+  EXAMPLE:
+    MATERIAL: DISPENSER
+    DISPLAYNAME: "&b&lExample Airdrop"
+    LORE:
+      - "&7Right click to place and get rewards"
+    DESTROY-TIME: 5
+    FIREWORK:
+      POWER: 1
+      COLOR: AQUA
+      TYPE: CREEPER
+      ENABLED: true
+    HOLOGRAM:
+      ENABLED: true
+      MAIN-LINE: "<name>"
+      SECOND-LINE: "Destroying in &b<countdown> seconds."
+    REWARDS:
+      0:
+        NAME: "Reward Example"
+        MATERIAL: DIAMOND
+        AMOUNT: 64
+        DATA: 0
+        CHANCE: 50.0
+        LORE:
+          ENABLED: false
+          LIST:
+            - ""
+        ENCHANTMENTS:
+          ENABLED: false
+          LIST:
+            - "DURABILITY:4"
